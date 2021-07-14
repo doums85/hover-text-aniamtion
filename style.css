@@ -101,14 +101,20 @@ body ::selection {
     font-size: 3rem;
 }
 
-#github{
+#github {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 2rem;
+    left: 5rem;
 }
 
 @media screen and (min-width: 768px) {
     .content h1 {
         font-size: 14rem;
     }
+
+    #github {
+        bottom: 0;
+        left: 0;
+    }
+
 }
